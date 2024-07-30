@@ -3,8 +3,8 @@
 ## Installation 
    
    - Clone the repository
-     `git clone `
-      cd 
+     `git clone git@github.com:ssowmyaraj/multiple-automation.git`
+     `cd multiple-automation`
     
 ## Set up
    
@@ -14,7 +14,6 @@
     Navigate to the project folder where testng.xml and pom.xml files are present
     
     For WEB
-    - mvn test -Pfull-suite -Dgroups="multipleweb" -Dpassword="" -Dplatform="web"
-    
+    - mvn test -Pfull-suite -Dgroups="multipleweb" -Dpassword="" -Dplatform="web"  
     For API
-   -  mvn test -Pfull-suite -Dgroups="multipleapi" -Dpassword="" -Dplatform="api"
+    - mvn test -Pfull-suite -Dgroups="multipleapi" -Dpassword="" -Dplatform="api"
