@@ -17,3 +17,6 @@
     - mvn test -Pfull-suite -Dgroups="multipleweb" -Dpassword="" -Dplatform="web"  
     For API
     - mvn test -Pfull-suite -Dgroups="multipleapi" -Dpassword="" -Dplatform="api"
+
+    OR Run using the testng.xml file
+    
