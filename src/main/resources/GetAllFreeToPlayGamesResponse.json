@@ -1,0 +1,54 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "title": {
+        "type": "string"
+      },
+      "thumbnail": {
+        "type": "string"
+      },
+      "short_description": {
+        "type": "string"
+      },
+      "game_url": {
+        "type": "string"
+      },
+      "genre": {
+        "type": "string"
+      },
+      "platform": {
+        "type": "string"
+      },
+      "publisher": {
+        "type": "string"
+      },
+      "developer": {
+        "type": "string"
+      },
+      "release_date": {
+        "type": "string"
+      },
+      "freetogame_profile_url": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "thumbnail",
+      "short_description",
+      "game_url",
+      "genre",
+      "platform",
+      "publisher",
+      "developer",
+      "release_date",
+      "freetogame_profile_url"
+    ]
+  }
+}
